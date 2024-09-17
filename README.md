@@ -15,7 +15,9 @@ Shift Baru: B
 - Data yang sudah diterima di TampilData digunakan untuk melakukan operasi menghitung umur berdasarkan tahun lahir. Setelah itu, data ditampilkan pada tampilan menggunakan Text.
 
 ## Screenshot
-![form_data](https://github.com/user-attachments/assets/267268aa-d139-421f-9bc4-1dcd6dc70694)
-![tampil_data](https://github.com/user-attachments/assets/d0e8dea3-11dd-4fd0-95ea-fbf6bd8fd802)
+![form_data](https://github.com/user-attachments/assets/8d13362c-4fa5-4e15-8da5-772f8d2e9e93)
+![tampil_data](https://github.com/user-attachments/assets/8e697843-0e47-4b8a-88b8-a0d561368d73)
+
+
 
 
