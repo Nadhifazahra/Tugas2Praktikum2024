@@ -23,37 +23,36 @@ class TampilData extends StatelessWidget {
             fontWeight: FontWeight.bold,
             color: Colors.white
         )),
-        backgroundColor: Colors.deepPurple, // Warna AppBar
+        backgroundColor: Colors.deepPurple,
       ),
       body: Container(
-        color: Colors.white, // Background putih
-        padding: const EdgeInsets.all(16.0), // Padding agar konten tidak menempel ke tepi
+        padding: const EdgeInsets.all(16.0),
         child: Center(
           child: Column(
             mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.center, // Konten di tengah secara horizontal
+            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               Text(
                 "Nama saya $nama, dengan NIM $nim. Saat ini, saya berusia $umur tahun.",
                 style: TextStyle(
                   fontSize: 22,
-                  color: Colors.black54,
+                  color: Colors.black,
                 ),
-                textAlign: TextAlign.center, // Teks rata tengah
+                textAlign: TextAlign.center,
               ),
-              SizedBox(height: 30), // Jarak bawah agar tidak terlalu sempit
+              SizedBox(height: 40),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.deepPurple, // Warna background tombol
-                  foregroundColor: Colors.white, // Warna teks tombol
-                  padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15), // Padding tombol
+                  backgroundColor: Colors.deepPurple,
+                  foregroundColor: Colors.white,
+                  padding: const EdgeInsets.symmetric(horizontal: 30, vertical: 15),
                 ),
                 onPressed: () {
-                  Navigator.pop(context); // Aksi kembali ke layar sebelumnya
+                  Navigator.pop(context);
                 },
                 child: const Text(
                   'Kembali',
-                  style: TextStyle(fontSize: 18), // Ukuran teks tombol
+                  style: TextStyle(fontSize: 18),
                 ),
               ),
             ],
